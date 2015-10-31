@@ -1,4 +1,3 @@
-package week1;
 
 public class LinkedList 
 {
@@ -125,4 +124,22 @@ public class LinkedList
 			this.head.display();
 		}
 	}
+	
+	public int length()
+	{
+		return count;
+	}
+	
+	public String toString()
+	{
+		String list = "";
+		Node currHead = head;		
+		while (currHead != null)
+		{
+			list = list + currHead.getPayload();
+			currHead = currHead.getNextNode();
+		}
+		return list;
+	}
+
 }

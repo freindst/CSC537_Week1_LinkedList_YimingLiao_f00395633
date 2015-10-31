@@ -1,4 +1,3 @@
-package week1;
 
 public class Node 
 {
@@ -38,4 +37,5 @@ public class Node
 			System.out.println("end");
 		}
 	}
+
 }
