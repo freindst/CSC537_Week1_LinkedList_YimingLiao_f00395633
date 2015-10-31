@@ -3,6 +3,7 @@ public class Main {
 
 	public static void main(String[] args) throws Exception
 	{
+		//add two integers from integer string
 		HugeInteger num1 = new HugeInteger("1234567890");
 		System.out.println(num1.toString());
 		
